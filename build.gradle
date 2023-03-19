@@ -1,0 +1,24 @@
+
+buildscript {
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+plugins {
+    id "io.spring.dependency-management" version "1.0.9.RELEASE"
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    project.group = 'com.logan'
+    project.version = '0.0.1-SNAPSHOT'
+
+    sourceCompatibility = JavaVersion.VERSION_11
+
+    test {
+        useJUnitPlatform()
+    }
+}
