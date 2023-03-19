@@ -13,7 +13,9 @@
 
 ## 실행 환경
   - endpoint : http://localhost:8080/swagger-ui/index.html#/
-  - excute cmd : java -jar search-blog-api-0.0.1-SNAPSHOT.jar 
+  - excute cmd : java -jar search-blog-api-0.0.1-SNAPSHOT.jar
+  - download jar file link :
+    - https://github.com/logan-lee-develop/problem-solve/blob/main/search-blog-api-0.0.1-SNAPSHOT.jar
 
 ## 추가 구현사항
 - multi module 구성
